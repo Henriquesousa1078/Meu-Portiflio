@@ -107,6 +107,7 @@ h2 {
     opacity: 0.6;
     transition: 0.5s;
 }
+
 .sessaoSobre {
     background-color: #1A1330;
 }
@@ -385,5 +386,4 @@ footer a:hover{
     .sobre-texto{
         width: 90vw;
     }
-
 }
