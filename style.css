@@ -103,7 +103,10 @@ h2 {
     background-color: #7C3AED;
     color: #FAF8FF;
 }
-
+.buttonHero:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
 .sessaoSobre {
     background-color: #1A1330;
 }
@@ -246,6 +249,10 @@ h2 {
     border-radius: 5px;
     color: #7C3AED;
 }
+.card a:hover{
+    opacity: 0.5;
+    transition: 0.8s;
+}
 .sessaoContato{
     background-color: #4C1D95;
     height: auto;
@@ -279,6 +286,10 @@ h2 {
     border: 1px solid #DDD6FE;
     border-radius: 10px;
     color: #DDD6FE;
+}
+.caixa-contato a:hover{
+    opacity: 0.6;
+    transition: 0.5s;
 }
 .caixa-contato .link-email{
     background-color: #2DD4BF;
@@ -374,4 +385,5 @@ footer a:hover{
     .sobre-texto{
         width: 90vw;
     }
+
 }
