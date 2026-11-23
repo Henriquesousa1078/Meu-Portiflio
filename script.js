@@ -6,3 +6,4 @@ document.querySelectorAll("#menuPrincipal .nav-link").forEach((link) => {
         if (menu.classList.contains("show")) colapso.hide();
     });
 });
+document.getElementById("ano").textContent = new Date().getFullYear();
